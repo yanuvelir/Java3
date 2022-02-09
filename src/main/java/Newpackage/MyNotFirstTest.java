@@ -1,3 +1,5 @@
+package Newpackage;
+
 public class MyNotFirstTest {
 
     public static void main(String[] args) {
