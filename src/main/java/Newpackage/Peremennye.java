@@ -9,6 +9,10 @@ public class Peremennye {
 
       double len = 5;
         System.out.println("Area square with side " + 5 + " = " + area(len));
+
+        double a = 4;
+        double b = 6;
+        System.out.println("Area rectangle with sides " + a + " и " + b + " = " + area(a, b));
     }
     public static void hello (String someone) {
 
@@ -17,6 +21,11 @@ public class Peremennye {
 
     public static double area (double l) {
         return l*l;
+
+    }
+
+    public static double area (double a, double b) {
+        return a * b;
 
     }
 }
