@@ -8,7 +8,7 @@ public class MyNotFirstTest {
 
         System.out.println(i);
         System.out.println(b);
-
+        System.out.println("try to push");
 
 
     }
