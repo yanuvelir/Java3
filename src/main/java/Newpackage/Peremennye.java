@@ -7,25 +7,24 @@ public class Peremennye {
         hello("user");
         hello("Yan");
 
-      double len = 5;
-        System.out.println("Area of square with side " + 5 + " = " + area(len));
+        Square s = new Square(5);
+        System.out.println("Area of square with side " + s.l + " = " + area(s));
 
-        double a = 4;
-        double b = 6;
-        System.out.println("Area of rectangle with sides " + a + " и " + b + " = " + area(a, b));
+        Rectangle r = new Rectangle(4, 6);
+        System.out.println("Area of rectangle with sides " + r.a + " и " + r.b + " = " + area(r));
     }
     public static void hello (String someone) {
 
         System.out.println("Hello," + someone + "!");
     }
 
-    public static double area (double l) {
-        return l*l;
+    public static double area (Square s) {
+        return s.l * s.l;
 
     }
 
-    public static double area (double a, double b) {
-        return a * b;
+    public static double area (Rectangle r) {
+        return r.a * r.b;
 
     }
 }
