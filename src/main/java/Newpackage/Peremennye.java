@@ -8,11 +8,11 @@ public class Peremennye {
         hello("Yan");
 
       double len = 5;
-        System.out.println("Area square with side " + 5 + " = " + area(len));
+        System.out.println("Area of square with side " + 5 + " = " + area(len));
 
         double a = 4;
         double b = 6;
-        System.out.println("Area rectangle with sides " + a + " и " + b + " = " + area(a, b));
+        System.out.println("Area of rectangle with sides " + a + " и " + b + " = " + area(a, b));
     }
     public static void hello (String someone) {
 
